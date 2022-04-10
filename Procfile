@@ -1,1 +1,1 @@
-worker: bash SAURABHX
+worker: bash saurabhspambot
