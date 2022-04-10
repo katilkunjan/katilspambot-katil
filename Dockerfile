@@ -10,4 +10,4 @@ RUN pip3 install -U -r requirements.txt
 
 ENV PATH="/home/saurabhspambot/bin:$PATH"
 
-CMD ["python3","-m","saurabhspambot"]
+CMD ["python3","-3","saurabhspambot"]
