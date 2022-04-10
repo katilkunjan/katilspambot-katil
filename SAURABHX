@@ -4,10 +4,10 @@
 _repolink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $SPAM_REPO == "Spambot" ]]
+    if [[ $SPAM_REPO == "Saurabhspambot" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL01yUml6b2VsL1NwYW1ib3QvYXJjaGl2ZS9SaXpvZWwuemlw" | base64 -d
-    elif [[ $SPAM_REPO == "Spambot" ]]
+    elif [[ $SPAM_REPO == "SaurabhSpambot" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL01yUml6b2VsL1NwYW1ib3QvYXJjaGl2ZS9SaXpvZWwuemlw" | base64 -d
     elif [[ $SPAM_REPO =~ $regex ]]
