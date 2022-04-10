@@ -39,7 +39,7 @@ start_bot () {
     echo "  • Starting SaurabhXSpam •  "
 
     python3 ../setup/updater.py ../requirements.txt requirements.txt
-    python3 -m saurabhspambot
+    python3 -3 saurabhspambot
 }
 
 start_bot
