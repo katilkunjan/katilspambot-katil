@@ -16,7 +16,7 @@ _repolink () {
         then
             echo "${SPAM_REPO}/archive/${SPAM_REPO_BRANCH}.zip"
         else
-            echo "${SPAM_REPO}/archive/Rizoel.zip"
+            echo "${SPAM_REPO}/archive/saurabhspambot.zip"
         fi
     else
         echo "aHR0cHM6Ly9naXRodWIuY29tL01yUml6b2VsL1NwYW1ib3QvYXJjaGl2ZS9SaXpvZWwuemlw" | base64 -d
@@ -26,7 +26,7 @@ _repolink () {
 
 start_bot () {
     local zippath
-    zippath="SpamBot.zip"
+    zippath="saurabhspamBot.zip"
     echo "  Downloading source code ..."
     wget -q $(_repolink) -O "$zippath"
     echo "  Unpacking Data ..."
